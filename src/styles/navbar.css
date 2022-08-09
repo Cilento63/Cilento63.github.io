@@ -1,0 +1,65 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(108, 3, 122);
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav__link {
+  padding: 0.3125rem 1.5rem;
+}
+
+.nav__link.active {
+  border: 2px solid white;
+  color: white;
+  border-radius: 500px;
+}
+
+.navContatos {
+  margin: 10px 10px 10px 10px;
+  color: purple;
+  /* definimos a cor de fundo do box */
+}
+
+.layout-cabeçalho {
+  display: flex;
+  padding: 30px 20px;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navTop {
+  text-align: right;
+}
+
+.navHome,
+.navContatos {
+  display: inline-flex;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  font-family: Montserrat;
+  font-weight: 600;
+  text-decoration: none;
+  margin-right: 30px;
+  margin-top: 5%;
+}
+
+.navTop:hover,
+.navHome:hover,
+.navContatos:hover {
+  color: white;
+}

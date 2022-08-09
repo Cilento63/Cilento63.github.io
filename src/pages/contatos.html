@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/icons/favicon-16x16.png">
+    <link rel="manifest" href="../assets/icons/site.webmanifest">
+
+
+    <link rel="stylesheet" href="../styles/Bootstrap/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../styles/Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/Bootstrap/bootstrap.css">
+
+    <link rel="stylesheet" href="../styles/contatos.css">
+
+    <link rel="stylesheet" href="../styles/navbar.css">
+
+
+    <script src="../js/navbar.js"></script>
+
+
+
+    <title>Contatos</title>
+</head>
+
+<body>
+
+    <header class="layout-cabeçalho">
+        <a href="../../index.html"
+          ><img
+            href="../../index.html"
+            src="../assets/images/icon.png"
+            width="80px"
+            height="80px"
+            alt=""
+        /></a>
+        <nav class="navTop">
+          <a class="navHome nav__link " href="../../index.html">Home</a>
+            <a class="navContatos nav__link active " href="./contatos.html"
+              >Contatos</a
+            >
+        </nav>
+      </header>
+    <main class="form-container">
+
+      
+            <h1 class="titulo-formulario">Envie sua mensagem.</h1>
+            <form action="https://formsubmit.co/lucascilento82@gmail.com" method="POST">
+                <div class="row">
+                    <div class="my-3 col-sm-12 col-md-12 nomeclatura">
+                        <label class="form-label" for="nome">Nome:</label>
+                        <input placeholder="Nome Sobrenome" id="nome" class="input form-control nomeclatura " type="text" name="nome"
+                            required="true">
+                    </div>
+                    <div class="row">
+                        <div class="my-3 col-sm-12 col-md-12">
+                            <label class="form-label" for="email">Email:</label>
+                            <input placeholder="example@email.com" id="email" class="input form-control" type="email"
+                                name="email" required="true">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-group">
+                            <div class="my-3 col-sm-12 col-md-12">
+                        
+                            <label class="form-label" for="email">Mensagem:</label>
+                            <textarea  placeholder="Sua mensagem aqui." name="message" class=" input form-control" aria-label="Mensagem" required="true"></textarea>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button value="enviar" class="my-3 btn btn-dark">Enviar</button>
+                        <input type="reset" value=Limpar class="my-3 btn btn-dark">
+                    </div>
+
+                </div>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+            </form>
+        </div>
+        <div>
+
+ <video id="background-video" autoplay muted loop width="320" height="240">
+    <source src="../assets/videos/fivem_video.mp4" type="video/mp4" />
+          
+    Your browser does not support the video tag.
+</video>
+
+</body>
+
+</html>
